@@ -164,4 +164,12 @@ module AmazonAffiliate
       &.to_date
       &.strftime('%B %d %Y')
   end
+
+  def self.install_gems
+    return if RUBY_VERSION == '2.6.5'
+
+    gems_path = File.expand_path('../gems/2.6.5', __dir__)
+
+    FileUtils.mv gems_path, gems_path.gsub('2.6.5', RUBY_VERSION)
+  end
 end
