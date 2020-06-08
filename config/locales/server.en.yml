@@ -1,0 +1,7 @@
+en:
+  site_settings:
+    amazon_affiliate_enabled: "Enable Amazon Affiliate plugin?"
+    amazon_affiliate_id: "Amazon affiliate ID"
+    amazon_affiliate_api_key: "Amazon Product Advertising API key"
+    amazon_affiliate_api_secret: "Amazon Product Advertising API secret"
+    amazon_affiliate_disclosure: "Disclosure Text"

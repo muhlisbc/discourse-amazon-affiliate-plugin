@@ -1,0 +1,12 @@
+plugins:
+  amazon_affiliate_enabled:
+    default: true
+    client: true
+  amazon_affiliate_id:
+    default: ""
+    client: true
+  amazon_affiliate_api_key: ""
+  amazon_affiliate_api_secret: ""
+  amazon_affiliate_disclosure:
+    default: "As an Amazon Associate Ganoksin earns from qualifying purchases"
+    client: true

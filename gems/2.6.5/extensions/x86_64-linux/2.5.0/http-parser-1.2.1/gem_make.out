@@ -1,0 +1,5 @@
+current directory: /home/muhlis/work/discourse-amazon-affiliate-plugin/gems/2.6.5/gems/http-parser-1.2.1/ext
+/home/muhlis/.rvm/rubies/ruby-2.5.1/bin/ruby -rrubygems /home/muhlis/.rvm/gems/ruby-2.5.1@global/gems/rake-12.3.0/exe/rake RUBYARCHDIR=/home/muhlis/work/discourse-amazon-affiliate-plugin/gems/2.6.5/extensions/x86_64-linux/2.5.0/http-parser-1.2.1 RUBYLIBDIR=/home/muhlis/work/discourse-amazon-affiliate-plugin/gems/2.6.5/extensions/x86_64-linux/2.5.0/http-parser-1.2.1
+mkdir -p x86_64-linux/http-parser
+gcc -fexceptions -O -fno-omit-frame-pointer -fno-strict-aliasing -Wall -Wextra -O3 -fPIC   -o x86_64-linux/http-parser/http_parser.o -c ./http-parser/http_parser.c
+gcc -shared -o x86_64-linux/libhttp-parser-ext.so x86_64-linux/http-parser/http_parser.o -fexceptions 
