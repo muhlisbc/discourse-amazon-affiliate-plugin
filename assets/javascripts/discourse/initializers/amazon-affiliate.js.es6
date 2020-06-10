@@ -1,6 +1,6 @@
 import { withPluginApi } from "discourse/lib/plugin-api";
 
-const DOMAIN_REGEXP = /^https?:\/\/(?:www\.)?(?:smile\.)?(amazon|amzn)\.(?<tld>com|ca|de|it|es|fr|co\.jp|co\.uk|cn|in|com\.br|com\.mx)\//i;
+const DOMAIN_REGEXP = /(amazon|amzn)\.(com|ca|de|it|es|fr|co\.jp|co\.uk|cn|in|com\.br|com\.mx)\//i;
 
 function initPlugin(api) {
   if (!Discourse.SiteSettings.amazon_affiliate_enabled) return;

@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # name: amazon-affiliate
-# version: 0.1.1
+# version: 0.1.2
 # authors: Muhlis Budi Cahyono (muhlisbc@gmail.com)
 # url: https://github.com/muhlisbc/discourse-amazon-affiliate-plugin
 
