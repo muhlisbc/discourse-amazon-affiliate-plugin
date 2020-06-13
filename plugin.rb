@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # name: amazon-affiliate
-# version: 0.1.2
+# version: 0.1.3
 # authors: Muhlis Budi Cahyono (muhlisbc@gmail.com)
 # url: https://github.com/muhlisbc/discourse-amazon-affiliate-plugin
 
@@ -29,4 +29,5 @@ after_initialize do
   end
 
   ::Oneboxer.ignore_redirects << 'https://www.amazon.com'
+  ::Onebox.options.load_paths << File.expand_path('./templates', __dir__)
 end
