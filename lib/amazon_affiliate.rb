@@ -73,7 +73,7 @@ module AmazonAffiliate
       link: @item['DetailPageURL'],
       title: @item.dig('ItemInfo', 'Title', 'DisplayValue'),
       image: @item.dig('Images', 'Primary', 'Large', 'URL'),
-      price: offer[0]&.dig('Price', 'DisplayAmount'),
+      # price: offer[0]&.dig('Price', 'DisplayAmount'),
       description: amz_description
     }
 
